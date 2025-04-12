@@ -1,82 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Liu Lu' Homepage</title>
+    <title>刘璐璐的个人主页</title>
     <style>
         body {
-            font-family: "Helvetica Neue", Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f9; /* Light gray background */
-            color: #333; /* Dark gray text */
-        }
-        header {
-            background-color: #002855; /* Deep blue background */
-            color: #ffffff; /* White text */
-            padding: 40px 20px;
-            text-align: center;
-        }
-        header h1 {
-            margin: 0;
-            font-size: 2.8em;
-        }
-        header p {
-            margin: 10px 0 0;
-            font-size: 1.2em;
-            font-weight: 300;
+            background-color: #f5f5f5;
+            color: #333;
         }
         .container {
             max-width: 800px;
-            margin: 40px auto;
-            padding: 20px;
-            background: #ffffff; /* White background */
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Card shadow */
-            border-radius: 8px;
+            margin: 0 auto;
+            padding: 2rem;
         }
-        .container img {
-            display: block;
-            margin: 0 auto 20px;
-            border-radius: 50%; /* Circular photo */
-            width: 150px;
-            height: 150px;
-        }
-        .container p {
-            line-height: 1.8;
-            font-size: 1.1em;
-        }
-        .container a {
-            color: #002855; /* Deep blue link */
-            text-decoration: none;
-            font-weight: bold;
-        }
-        .container a:hover {
-            text-decoration: underline;
-        }
-        footer {
+        header {
             text-align: center;
-            padding: 20px;
-            background-color: #002855;
-            color: #ffffff;
-            font-size: 0.9em;
+            margin-bottom: 3rem;
+        }
+        h1 {
+            color: #2c3e50;
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        .nav-links {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        .nav-link {
+            text-decoration: none;
+            color: #3498db;
+            font-size: 1.2rem;
+            padding: 0.5rem 1rem;
+            border: 2px solid #3498db;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+        .nav-link:hover {
+            background-color: #3498db;
+            color: white;
+        }
+        .emoji {
+            font-size: 1.5rem;
+            margin-right: 0.5rem;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Liu Lu's Academic Homepage</h1>
-        <p>School of Information Science and Engineering, Lanzhou University</p>
-    </header>
     <div class="container">
-        <img src="images/my-photo.jpg" alt="Liu Lu's Photo">
-        <p>Hello! I am a first-year Ph.D. student at the Artificial Intelligence and Computing Technology Laboratory, School of Information Science and Engineering, Lanzhou University.</p>
-        <p>Here, I work with a group of passionate researchers to explore the mysteries of artificial intelligence and push the boundaries of computational power!</p>
-        <p>Welcome to my academic homepage, where you can find my research interests, academic achievements, and personal stories.</p>
-        <p>By the way, my advisor is <a href="https://xxxy.lzu.edu.cn/shiziduiwu/jiaoshiduiwu/fujiaoshou/2020/0920/132781.html" target="_blank">Professor Yang Yi</a>, an outstanding and highly accomplished scholar!</p>
+        <header>
+            <h1>刘璐璐的个人主页</h1>
+            <p>欢迎来到我的个人空间！👋</p>
+        </header>
+        
+        <div class="nav-links">
+            <a href="pages/about.html" class="nav-link">
+                <span class="emoji">👩‍💻</span>关于我
+            </a>
+            <a href="pages/interests.html" class="nav-link">
+                <span class="emoji">🎨</span>个人兴趣
+            </a>
+            <a href="pages/experience.html" class="nav-link">
+                <span class="emoji">💼</span>工作经历
+            </a>
+            <a href="pages/skills.html" class="nav-link">
+                <span class="emoji">✨</span>擅长领域
+            </a>
+        </div>
     </div>
-    <footer>
-        © 2025 Liu Lu | School of Information Science and Engineering, Lanzhou University
-    </footer>
 </body>
 </html>

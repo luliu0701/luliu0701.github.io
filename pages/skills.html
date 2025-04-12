@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>擅长领域 - 刘璐璐</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+        h1 {
+            color: #2c3e50;
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        .skill-category {
+            background: white;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .skill-title {
+            color: #3498db;
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: center;
+        }
+        .skill-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 1rem;
+        }
+        .skill-item {
+            background: #f8f9fa;
+            padding: 1rem;
+            border-radius: 5px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        .skill-item:hover {
+            transform: translateY(-5px);
+        }
+        .skill-name {
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+        .skill-level {
+            height: 5px;
+            background: #e9ecef;
+            border-radius: 3px;
+            margin-top: 0.5rem;
+        }
+        .skill-level-bar {
+            height: 100%;
+            background: #3498db;
+            border-radius: 3px;
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 2rem;
+            color: #3498db;
+            text-decoration: none;
+            font-size: 1.1rem;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+        .emoji {
+            font-size: 1.5rem;
+            margin-right: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>我的擅长领域</h1>
+            <p>不断学习，不断进步 💪</p>
+        </header>
+        
+        <div class="skill-category">
+            <h2 class="skill-title">
+                <span class="emoji">💻</span>编程技能
+            </h2>
+            <div class="skill-list">
+                <div class="skill-item">
+                    <div class="skill-name">Python</div>
+                    <div class="skill-level">
+                        <div class="skill-level-bar" style="width: 90%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">Java</div>
+                    <div class="skill-level">
+                        <div class="skill-level-bar" style="width: 85%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">C++</div>
+                    <div class="skill-level">
+                        <div class="skill-level-bar" style="width: 80%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="skill-category">
+            <h2 class="skill-title">
+                <span class="emoji">🤖</span>人工智能
+            </h2>
+            <div class="skill-list">
+                <div class="skill-item">
+                    <div class="skill-name">机器学习</div>
+                    <div class="skill-level">
+                        <div class="skill-level-bar" style="width: 88%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">深度学习</div>
+                    <div class="skill-level">
+                        <div class="skill-level-bar" style="width: 85%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">自然语言处理</div>
+                    <div class="skill-level">
+                        <div class="skill-level-bar" style="width: 82%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="skill-category">
+            <h2 class="skill-title">
+                <span class="emoji">🔧</span>工具使用
+            </h2>
+            <div class="skill-list">
+                <div class="skill-item">
+                    <div class="skill-name">PyTorch</div>
+                    <div class="skill-level">
+                        <div class="skill-level-bar" style="width: 90%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">TensorFlow</div>
+                    <div class="skill-level">
+                        <div class="skill-level-bar" style="width: 85%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">Git</div>
+                    <div class="skill-level">
+                        <div class="skill-level-bar" style="width: 88%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="skill-category">
+            <h2 class="skill-title">
+                <span class="emoji">🌐</span>其他技能
+            </h2>
+            <div class="skill-list">
+                <div class="skill-item">
+                    <div class="skill-name">英语</div>
+                    <div class="skill-level">
+                        <div class="skill-level-bar" style="width: 92%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">团队协作</div>
+                    <div class="skill-level">
+                        <div class="skill-level-bar" style="width: 90%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">项目管理</div>
+                    <div class="skill-level">
+                        <div class="skill-level-bar" style="width: 85%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <a href="../index.html" class="back-link">
+            <span class="emoji">⬅️</span>返回首页
+        </a>
+    </div>
+</body>
+</html> 
