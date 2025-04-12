@@ -3,44 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>刘璐的个人网站</title>
+    <title>刘璐的个人学术主页</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: "Helvetica Neue", Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f9f9f9;
-            color: #333;
-            text-align: center;
+            background-color: #f4f4f9; /* 浅灰背景 */
+            color: #333; /* 深灰文字 */
         }
         header {
-            background-color: #ffcc00;
-            padding: 20px;
+            background-color: #002855; /* 深蓝背景 */
+            color: #ffffff; /* 白色文字 */
+            padding: 40px 20px;
+            text-align: center;
         }
         header h1 {
             margin: 0;
-            font-size: 2.5em;
+            font-size: 2.8em;
         }
-        img {
+        header p {
+            margin: 10px 0 0;
+            font-size: 1.2em;
+            font-weight: 300;
+        }
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background: #ffffff; /* 白色背景 */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 卡片阴影 */
+            border-radius: 8px;
+        }
+        .container img {
+            display: block;
+            margin: 0 auto 20px;
             border-radius: 50%;
-            margin-top: 20px;
             width: 150px;
             height: 150px;
         }
-        section {
-            margin: 20px;
+        .container p {
+            line-height: 1.8;
+            font-size: 1.1em;
+        }
+        .container a {
+            color: #002855; /* 深蓝链接 */
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #002855;
+            color: #ffffff;
+            font-size: 0.9em;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>你好，我是刘璐！</h1>
+        <h1>刘璐的个人学术主页</h1>
+        <p>兰州大学 · 人工智能与算力技术实验室</p>
     </header>
-    <img src="path/to/your-photo.jpg" alt="刘璐的照片">
-    <section>
-        <p>来自兰州大学信息科学与工程学院人工智能与算力技术团队的博一学生。</p>
-        <p>欢迎来到我的个人网站，这里内容生动活泼、有趣且有个性！</p>
-        <p>我的导师是 <a href="https://xxxy.lzu.edu.cn/shiziduiwu/jiaoshiduiwu/fujiaoshou/2020/0920/132781.html" target="_blank">杨裔教授</a>。</p>
-    </section>
+    <div class="container">
+        <img src="path/to/your-photo.jpg" alt="刘璐的照片">
+        <p>你好呀！我是来自兰州大学信息科学与工程学院人工智能与算力技术实验室的一名博一学生。</p>
+        <p>在这里，我和一群热爱科技的小伙伴们一起探索人工智能的奥秘，追逐算力的极限！</p>
+        <p>欢迎来到我的个人学术主页，这里不仅有我的研究方向，还有我的学术成果和故事！</p>
+        <p>顺便一提，我的导师是 <a href="https://xxxy.lzu.edu.cn/shiziduiwu/jiaoshiduiwu/fujiaoshou/2020/0920/132781.html" target="_blank">杨裔教授</a>，一位非常优秀且充满智慧的学者！</p>
+    </div>
+    <footer>
+        © 2025 刘璐 | 兰州大学信息科学与工程学院
+    </footer>
 </body>
 </html>
